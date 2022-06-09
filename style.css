@@ -22,7 +22,7 @@ body {
 }
 
 .company-name {
-    font-size: 40;
+    font-size: 40px;
 }
 
 .page-container {
@@ -65,7 +65,7 @@ body {
 
 .post-textbox {
     padding-left: 4%;
-    font-size: 16;
+    font-size: 16px;
 }
 
 .center-text {
