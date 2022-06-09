@@ -1,0 +1,73 @@
+/*
+    Theme Name: Eksami teema
+    Text Domain: Kool
+    Version: 0.1
+    Tested up to: 5.9
+    Requires at least: 5.9
+    Requires PHP: 5.2.4
+    Description: Veebiprogrammeerimise õppeaine eksamitöö raames loodud teema
+    Tags: RIF, õppekava, veebiprogrammeerimine
+    Author: Kairo Luha
+    Author URI: https://github.com/Kairokas/
+    License: GNU General Public License v2 or later
+    License URI: http://www.gnu.org/licenses/gpl-2.0.html
+    All files, unless otherwise stated, are released under the GNU General Public
+    License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+    This theme, like WordPress, is licensed under the GPL.
+*/
+
+body {
+    background-image: linear-gradient(to top right, #deffb3, #d2ff81);
+    font-family: verdana;
+}
+
+.company-name {
+    font-size: 40;
+}
+
+.page-container {
+    margin: auto;
+}
+
+.flexbox-workers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.worker {
+    height: 100%;
+    width: 100%;
+    margin: 20px;
+    flex-basis: 40%;
+    background-color: #76ff6a;
+    padding-bottom: 1%;
+    position: relative;
+    overflow: hidden;
+}
+
+.worker-image {
+    overflow:hidden;
+}
+
+.attachment-post-thumbnail {
+    width: 50%;
+    height: 50%;
+    transition: transform .5s;
+    display: block;
+    margin: 4%;
+}
+
+.attachment-post-thumbnail:hover {
+    transform: scale(2);
+}
+
+.post-textbox {
+    padding-left: 4%;
+    font-size: 16;
+}
+
+.center-text {
+    text-align: center;
+}
